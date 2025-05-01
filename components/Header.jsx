@@ -27,7 +27,7 @@ function Header() {
 
   return (
     <div className={`absolute sticky top-0 w-full z-50 transition-colors duration-300 ${
-        isScrolled ? 'bg-gradient-to-t from-[#182848] to-[#141E30]' : 'bg-transparent'
+        isScrolled ? 'bg-gradient-to-t from-[#182848] to-[#141E30]' : 'bg-black'
       }`}>
         <div className='py-7 px-5 md:px-12 lg:px-28 bg-transparent flex justify-between items-center'>
             <div className='w-40'>

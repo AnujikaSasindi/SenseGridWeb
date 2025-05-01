@@ -11,6 +11,7 @@ export default function Home() {
   return (
     <>
       <TopStatus/>
+      <Header/>
       <LandingFirst/>
       <LandingSecond/>
       <LandingThird/>
