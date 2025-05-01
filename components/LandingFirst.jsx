@@ -1,10 +1,12 @@
 import React from 'react'
 import NewItem from "@/components/NewItem";
+import Header from "@/components/Header";
 
 
 function LandingFirst() {
   return (
     <div className='relative flex flex-col top-0 w-full pb-30 h-fit bg-gradient-to-t from-[#09122C] to-[#000]'>
+        <Header/>
         <h1 className='flex px-40 pt-20 justify-between text-white text-center text-8xl/35 font-bold'>Application infrastructure for intelligent devices</h1>
         <div className='flex flex-row justify-between m-auto mt-8 mb-10 w-auto'>
             <button className='flex items-center text-lg font-semibold text-white py-2 px-5 sm:px-6 text-[#09122C] border border-solid border-[#182848] bg-[#4b6cb7]-400 rounded-3xl hover:bg-[#4b6cb7]'>

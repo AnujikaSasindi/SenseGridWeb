@@ -30,7 +30,7 @@ function Header() {
         isScrolled ? 'bg-gradient-to-t from-[#182848] to-[#141E30]' : 'bg-transparent'
       }`}>
         <div className='py-7 px-5 md:px-12 lg:px-28 bg-transparent flex justify-between items-center'>
-            <div className='w-50'>
+            <div className='w-40'>
                 <img src="./assets/logo.png" alt='' className='sm:w-auto' />
             </div>
             <div className='flex justify-between items-center'>
