@@ -218,7 +218,7 @@ function LandingThird() {
                         </div>
                         
                     </div>
-                    <div className='w-full h-fit px-5 py-5'>
+                    <div className='w-full h-max px-5 py-5'>
                         <img src="./assets/layer6.png" alt='' className='w-full py-0' />
                     </div>
                 </div>
@@ -238,7 +238,7 @@ function LandingThird() {
                     <div className='w-full h-screen px-15 py-60 text-center'>
                         <img src="./assets/layer5.png" alt='' className='px-35 sm:w-auto transform transition-all duration-700 ease-in-out' />
                     </div>
-                    <div className='w-full h-fit px-5 pb-20'>
+                    <div className='w-full h-max pb-20 px-5'>
                         <div className='text-xl font-bold text-[#00faff] ml-20 py-2 m-auto'>Supported devices</div>
                         <div className='text-3xl font-bold text-[#09122C] ml-20 py-2 m-auto'>Hardware abstraction, not hardware ignorance</div>
                         <div className='text-xl text-gray-400 ml-20 py-2 m-auto'>Particle's edge-to-cloud infrastructure is tightly integrated with supported devices — from our own modules and gateways to popular edge computing platforms like Raspberry Pi, NVIDIA Jetson, and BeagleBone.</div>
